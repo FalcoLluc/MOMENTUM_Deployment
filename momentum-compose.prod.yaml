@@ -1,0 +1,57 @@
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: momentum-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - momentum_mongodb_data:/data/db
+    networks:
+      - "db_network"
+  
+  backend:
+    image: janvinas/momentum-backend:latest
+    container_name: momentum-backend
+    ports:
+      - "40002:8080"
+    networks:
+      - "db_network"
+      - "api_network"
+    environment:
+      NODE_ENV: "${NODE_ENV}"
+      MONGODB_URI: "${MONGODB_URI}"
+      PORT: "${PORT}"
+      APP_BASE_URL: "${APP_BASE_URL}"
+      JWT_ACCESS_SECRET: "${JWT_ACCESS_SECRET}"
+      JWT_REFRESH_SECRET: "${JWT_REFRESH_SECRET}"
+      FRONTEND_URL: "${FRONTEND_URL}"
+
+  webapp:
+    image: janvinas/momentum-webapp:latest
+    container_name: momentum-webapp
+    ports:
+      - "40000:3000"
+    networks:
+      - "api_network"
+    environment:
+      NODE_ENV: "${NODE_ENV}"
+      NEXT_PUBLIC_API_URL: "${NEXT_PUBLIC_API_URL}"
+      NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN: "${NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}"
+
+  backoffice:
+    image: janvinas/momentum-backoffice:latest
+    container_name: momentum-backoffice
+    ports:
+      - "40001:80"
+    networks:
+      - "api_network"
+    environment:
+      PUBLIC_API_URL: "${PUBLIC_API_URL}"
+      BACKOFFICE_URL: "${BACKOFFICE_URL}"
+
+networks:
+  db_network:
+  api_network:
+
+volumes:
+  momentum_mongodb_data:
