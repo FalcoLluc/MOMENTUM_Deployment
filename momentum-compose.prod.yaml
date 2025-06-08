@@ -26,6 +26,7 @@ services:
       JWT_REFRESH_SECRET: "${JWT_REFRESH_SECRET}"
       FRONTEND_URL: "${FRONTEND_URL}"
       BACKOFFICE_URL: "${BACKOFFICE_URL}"
+      OPENAI_API_KEY: "${OPENAI_API_KEY}"
 
   webapp:
     image: janvinas/momentum-webapp:latest
