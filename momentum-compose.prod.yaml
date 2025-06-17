@@ -27,6 +27,14 @@ services:
       FRONTEND_URL: "${FRONTEND_URL}"
       BACKOFFICE_URL: "${BACKOFFICE_URL}"
       OPENAI_API_KEY: "${OPENAI_API_KEY}"
+      REDIS_HOST: "${REDIS_HOST}"
+      REDIS_PORT: "${REDIS_PORT}"
+
+  redis:
+    image: redis
+    container_name: momentum-redis
+    networks:
+      - "db_network"
 
   webapp:
     image: janvinas/momentum-webapp:latest
