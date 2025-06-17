@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "68287e125466ffe5ea94cf90"
+  },
+  "user1": {
+    "$oid": "67d6b8ed545d041b1c883de8"
+  },
+  "user2": {
+    "$oid": "67d70eae2b53ddfcf8d322e0"
+  },
+  "messages": [
+    {
+      "from": "67d6b8ed545d041b1c883de8",
+      "text": "Hola blau! Com va tot?",
+      "timestamp": {
+        "$date": "2024-05-17T10:00:00.000Z"
+      }
+    },
+    {
+      "from": "67d70eae2b53ddfcf8d322e0",
+      "text": "Ei blue! Bé, treballant al projecte :)",
+      "timestamp": {
+        "$date": "2024-05-17T10:01:00.000Z"
+      }
+    },
+    {
+      "from": "blue",
+      "text": "molt be",
+      "timestamp": {
+        "$date": "2025-05-17T13:41:57.544Z"
+      }
+    },
+    {
+      "from": "blau",
+      "text": "i a tu",
+      "timestamp": {
+        "$date": "2025-05-17T13:42:13.592Z"
+      }
+    },
+    {
+      "from": "blau",
+      "text": "genial",
+      "timestamp": {
+        "$date": "2025-05-17T13:42:56.679Z"
+      }
+    },
+    {
+      "from": "blau",
+      "text": "hola",
+      "timestamp": {
+        "$date": "2025-05-17T13:58:44.516Z"
+      }
+    },
+    {
+      "from": "blue",
+      "text": "hello",
+      "timestamp": {
+        "$date": "2025-05-17T14:24:29.181Z"
+      }
+    },
+    {
+      "from": "blue",
+      "text": "hola",
+      "timestamp": {
+        "$date": "2025-05-17T14:25:27.862Z"
+      }
+    },
+    {
+      "from": "blau",
+      "text": "holi",
+      "timestamp": {
+        "$date": "2025-05-17T17:03:15.012Z"
+      }
+    },
+    {
+      "from": "blue",
+      "text": "que tal",
+      "timestamp": {
+        "$date": "2025-05-17T17:03:18.521Z"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68287e125466ffe5ea94cf91"
+  },
+  "user1": {
+    "$oid": "67d6b8ed545d041b1c883de8"
+  },
+  "user2": {
+    "$oid": "681c424942392a7d22fd3bd6"
+  },
+  "messages": [
+    {
+      "from": "681c424942392a7d22fd3bd6",
+      "text": "Blue, tens un moment per una trucada?",
+      "timestamp": {
+        "$date": "2024-05-17T11:00:00.000Z"
+      }
+    },
+    {
+      "from": "67d6b8ed545d041b1c883de8",
+      "text": "Sí, et truco ara mateix!",
+      "timestamp": {
+        "$date": "2024-05-17T11:01:00.000Z"
+      }
+    }
+  ]
+}]

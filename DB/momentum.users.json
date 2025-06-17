@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "684a8f13f8cd6d8d4bdad271"
+  },
+  "name": "Toni",
+  "age": 45,
+  "mail": "familiacamarasalinde@gmail.com",
+  "password": "$2b$08$0dTTkg8WGpGCmzjpe8LI1.mPCumVZl8V5y0iYSlQDIqH63ic8b/Oi",
+  "isDeleted": false,
+  "activationId": "",
+  "favoriteLocations": [
+    {
+      "$oid": "6829ca7437e1b1ea58d10d16"
+    },
+    {
+      "$oid": "6829ca8537e1b1ea58d10d17"
+    }
+  ],
+  "friends": [
+    {
+      "$oid": "684ac2bb862e0ab4e9fc6054"
+    }
+  ],
+  "friendRequests": [],
+  "fcmToken": "dMGcO-mQPYjQnuuFDfj5bU:APA91bEXyyzzehcWWmWV_JhxVdO_h4zXdpUEvUh2YZLou77GbF4NkuPSotMfOodi2DaVw845JdAY6xth-5Ztdn-von5yS15dyouYCmh6s89yrkb18H8e14Q",
+  "__v": 23
+},
+{
+  "_id": {
+    "$oid": "684ac2bb862e0ab4e9fc6054"
+  },
+  "name": "Momentum",
+  "age": 12,
+  "mail": "momentumea2025@gmail.com",
+  "password": "$2b$08$TqmX3ROCBW7Zs56JkIOXIeTRtWWP4RHcEkgCMd5H71FcmrsNlMA7e",
+  "isDeleted": false,
+  "activationId": "",
+  "favoriteLocations": [],
+  "friends": [
+    {
+      "$oid": "684a8f13f8cd6d8d4bdad271"
+    }
+  ],
+  "friendRequests": [
+    {
+      "$oid": "681c424942392a7d22fd3bd6"
+    }
+  ],
+  "fcmToken": "cb0Ttk453wm-palbouMzUd:APA91bHfLVw4ZnvdkDUENdxS2ByfMf95vJ6xJ083X43VBAAOWiOuwsiS0hnCCJV_1h-i3-3kpAd426hbpeFtiuiYorcZOf8MIX7MAN5MCnDO8BGEhbXI150",
+  "__v": 21
+}]

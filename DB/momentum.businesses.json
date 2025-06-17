@@ -1,0 +1,146 @@
+[{
+  "_id": {
+    "$oid": "67fd6642929fd98b2d6bdb80"
+  },
+  "name": "Salut d'ella",
+  "location": [
+    {
+      "$oid": "67fd6446929fd98b2d6bdb67"
+    },
+    {
+      "$oid": "67fd6599929fd98b2d6bdb6b"
+    }
+  ],
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdf01fb5f6228be38125a2"
+  },
+  "name": "CorporeSano",
+  "location": [
+    {
+      "$oid": "67fdef2bb5f6228be3812591"
+    },
+    {
+      "$oid": "67fdefafb5f6228be3812596"
+    }
+  ],
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdf054b5f6228be38125a8"
+  },
+  "name": "Grup Moments",
+  "location": [
+    {
+      "$oid": "67fdefc2b5f6228be381259a"
+    },
+    {
+      "$oid": "67fdef0fb5f6228be381258d"
+    }
+  ],
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdf15bb5f6228be38125bb"
+  },
+  "name": "Cuina Mediterranea",
+  "location": [
+    {
+      "$oid": "67fd65e6929fd98b2d6bdb78"
+    }
+  ],
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829bf6df4a83c85b95a7975"
+  },
+  "name": "DIR",
+  "location": [
+    {
+      "$oid": "6829c60737e1b1ea58d10d08"
+    },
+    {
+      "$oid": "6829c6a637e1b1ea58d10d09"
+    },
+    {
+      "$oid": "6829c6ec37e1b1ea58d10d0a"
+    },
+    {
+      "$oid": "6829c71337e1b1ea58d10d0b"
+    },
+    {
+      "$oid": "6829c73237e1b1ea58d10d0c"
+    }
+  ],
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829bfe6f4a83c85b95a798d"
+  },
+  "name": "Hello Nails",
+  "location": [
+    {
+      "$oid": "6829cbea37e1b1ea58d10d1b"
+    },
+    {
+      "$oid": "6829cc0137e1b1ea58d10d1c"
+    },
+    {
+      "$oid": "6829cc1537e1b1ea58d10d1d"
+    }
+  ],
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829bfeff4a83c85b95a7990"
+  },
+  "name": "Depiline",
+  "location": [
+    {
+      "$oid": "6829ca7437e1b1ea58d10d16"
+    },
+    {
+      "$oid": "6829ca8537e1b1ea58d10d17"
+    },
+    {
+      "$oid": "6829ca9f37e1b1ea58d10d18"
+    }
+  ],
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684d987308117cce6fea23a6"
+  },
+  "name": "Viniteca",
+  "location": [
+    {
+      "$oid": "684d9b2308117cce6fea23b1"
+    },
+    {
+      "$oid": "684eb33acb3a2767d7aada6a"
+    },
+    {
+      "$oid": "684ee64e85cd26644bc155bc"
+    },
+    {
+      "$oid": "684f0601d4203caacd7fe60a"
+    }
+  ],
+  "isDeleted": false,
+  "__v": 0
+}]

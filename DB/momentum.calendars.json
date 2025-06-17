@@ -1,0 +1,118 @@
+[{
+  "_id": {
+    "$oid": "67eac19ea12eadd2808f9a8e"
+  },
+  "owner": {
+    "$oid": "67d6b8ed545d041b1c883de8"
+  },
+  "calendarName": "insti",
+  "appointments": [],
+  "invitees": [],
+  "isDeleted": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eac1b3a12eadd2808f9a96"
+  },
+  "owner": {
+    "$oid": "67d6b8ed545d041b1c883de8"
+  },
+  "calendarName": "insti",
+  "appointments": [],
+  "invitees": [],
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682908393f804b2e626008b9"
+  },
+  "owner": {
+    "$oid": "67d70eae2b53ddfcf8d322e0"
+  },
+  "calendarName": "Uni",
+  "appointments": [
+    {
+      "$oid": "682908973f804b2e626008c4"
+    },
+    {
+      "$oid": "682909023f804b2e626008e9"
+    }
+  ],
+  "invitees": [],
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684c499bcab669cb7aec51e1"
+  },
+  "owner": {
+    "$oid": "684a8f13f8cd6d8d4bdad271"
+  },
+  "calendarName": "universitat",
+  "appointments": [
+    {
+      "$oid": "684c4b8ecab669cb7aec5249"
+    }
+  ],
+  "invitees": [],
+  "defaultColour": "#FF2196F3",
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684db60a5778064a29d79686"
+  },
+  "owner": {
+    "$oid": "684db3e3c5c0a69cf5cbd4ed"
+  },
+  "calendarName": "Trabajo",
+  "appointments": [
+    {
+      "$oid": "684db6735778064a29d79696"
+    }
+  ],
+  "invitees": [],
+  "defaultColour": "#FF2196F3",
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684dbde153d798f5304a8f27"
+  },
+  "owner": {
+    "$oid": "684db3f6c5c0a69cf5cbd502"
+  },
+  "calendarName": "Trabajo",
+  "appointments": [
+    {
+      "$oid": "684dbe6553d798f5304a8f4a"
+    }
+  ],
+  "invitees": [],
+  "defaultColour": "#FFF321D1",
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684dbdeb53d798f5304a8f2c"
+  },
+  "owner": {
+    "$oid": "684db3b8c5c0a69cf5cbd4d8"
+  },
+  "calendarName": "Traball",
+  "appointments": [
+    {
+      "$oid": "684dbe6e53d798f5304a8f56"
+    }
+  ],
+  "invitees": [],
+  "defaultColour": "#FF082C4A",
+  "isDeleted": false,
+  "__v": 0
+}]

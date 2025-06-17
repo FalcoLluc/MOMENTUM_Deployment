@@ -1,0 +1,876 @@
+[{
+  "_id": {
+    "$oid": "67fd6446929fd98b2d6bdb67"
+  },
+  "nombre": "Centre Salut Integral",
+  "address": "Carrer de la Marina, 25, 08005 Barcelona, Catalunya",
+  "phone": "+34 973 123 456",
+  "rating": 4.6,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      0.6255,
+      41.6171
+    ]
+  },
+  "serviceType": [
+    "gym workout",
+    "relaxing massage",
+    "haircut"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00",
+      "_id": {
+        "$oid": "67fd6446929fd98b2d6bdb68"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fd6599929fd98b2d6bdb6b"
+  },
+  "nombre": "Estètica Bella Dona",
+  "address": "Carrer de la Pau, 2, 46001 València, València",
+  "phone": "+34 611 987 321",
+  "rating": 4.9,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.8234,
+      41.9821
+    ]
+  },
+  "serviceType": [
+    "manicure",
+    "pedicure",
+    "facial cleansing"
+  ],
+  "schedule": [
+    {
+      "day": "wednesday",
+      "open": "10:00",
+      "close": "19:00",
+      "_id": {
+        "$oid": "67fd6599929fd98b2d6bdb6c"
+      }
+    }
+  ],
+  "accessible": false,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fd65e6929fd98b2d6bdb78"
+  },
+  "nombre": "La Cuina del Tast",
+  "address": "Carrer del Nord, 18, 25001 Lleida, Lleida",
+  "phone": "+34 644 111 222",
+  "rating": 4.8,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      1.7001,
+      41.345
+    ]
+  },
+  "serviceType": [
+    "restaurant reservation",
+    "private dinner",
+    "wine tasting"
+  ],
+  "schedule": [
+    {
+      "day": "friday",
+      "open": "18:00",
+      "close": "23:00",
+      "_id": {
+        "$oid": "67fd65e6929fd98b2d6bdb79"
+      }
+    },
+    {
+      "day": "saturday",
+      "open": "13:00",
+      "close": "23:30",
+      "_id": {
+        "$oid": "67fd65e6929fd98b2d6bdb7a"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdef0fb5f6228be381258d"
+  },
+  "nombre": "Beauty & Lashes",
+  "address": "Carrer Major, 15, 08750 Molins de Rei, Barcelona",
+  "phone": "+34 654 321 123",
+  "rating": 4.7,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.1094,
+      41.5472
+    ]
+  },
+  "serviceType": [
+    "eyebrows and lashes",
+    "makeup",
+    "hair coloring"
+  ],
+  "schedule": [
+    {
+      "day": "wednesday",
+      "open": "10:00",
+      "close": "18:00",
+      "_id": {
+        "$oid": "67fdef0fb5f6228be381258e"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdef2bb5f6228be3812591"
+  },
+  "nombre": "NutriVital",
+  "address": "Passeig de Gràcia, 55, 08007 Barcelona, Catalunya",
+  "phone": "+34 612 789 012",
+  "rating": 4.4,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      1.1069,
+      41.1565
+    ]
+  },
+  "serviceType": [
+    "nutritionist",
+    "physiotherapy"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:30",
+      "close": "17:30",
+      "_id": {
+        "$oid": "67fdef2bb5f6228be3812592"
+      }
+    },
+    {
+      "day": "friday",
+      "open": "09:30",
+      "close": "15:00",
+      "_id": {
+        "$oid": "67fdef2bb5f6228be3812593"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdefafb5f6228be3812596"
+  },
+  "nombre": "FitLife Club Barcelona",
+  "address": "Carrer del Progrés, 33, 08902 L'Hospitalet de Llobregat, Barcelona",
+  "phone": "+34 622 112 334",
+  "rating": 4.5,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.1651,
+      41.3899
+    ]
+  },
+  "serviceType": [
+    "gym workout",
+    "personal training",
+    "relaxing massage"
+  ],
+  "schedule": [
+    {
+      "day": "tuesday",
+      "open": "07:00",
+      "close": "22:00",
+      "_id": {
+        "$oid": "67fdefafb5f6228be3812597"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67fdefc2b5f6228be381259a"
+  },
+  "nombre": "Equilibri i Salut",
+  "address": "Carrer de la Indústria, 47, 08202 Sabadell, Barcelona",
+  "phone": "+34 644 789 456",
+  "rating": 4.8,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.8199,
+      41.9784
+    ]
+  },
+  "serviceType": [
+    "relaxing massage",
+    "physiotherapy",
+    "therapy session"
+  ],
+  "schedule": [
+    {
+      "day": "wednesday",
+      "open": "10:00",
+      "close": "18:00",
+      "_id": {
+        "$oid": "67fdefc2b5f6228be381259b"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829c60737e1b1ea58d10d08"
+  },
+  "nombre": "DiR Eixample",
+  "address": "Carrer d'Aragó, 179, 08011 Barcelona",
+  "phone": "+34 610 123 456",
+  "rating": 4.8,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.160565,
+      41.386774
+    ]
+  },
+  "serviceType": [
+    "gym workout",
+    "personal training",
+    "yoga class"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00",
+      "_id": {
+        "$oid": "67fd8001929fd98b2d6bdb91"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829c6a637e1b1ea58d10d09"
+  },
+  "nombre": "DiR Sabadell",
+  "address": "Carrer de Gràcia, 101, 08201 Sabadell",
+  "phone": "+34 670 566 982",
+  "rating": 4.7,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.107889,
+      41.548282
+    ]
+  },
+  "serviceType": [
+    "gym workout",
+    "personal training",
+    "yoga class"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00",
+      "_id": {
+        "$oid": "67fd823e929fd98b2d6bdb95"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829c6ec37e1b1ea58d10d0a"
+  },
+  "nombre": "DiR Lleida",
+  "address": "Avinguda de Catalunya, 29, 25002 Lleida",
+  "phone": "+34 621 987 654",
+  "rating": 4.6,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      0.6235,
+      41.6165
+    ]
+  },
+  "serviceType": [
+    "gym workout",
+    "personal training",
+    "yoga class"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00",
+      "_id": {
+        "$oid": "67fd8b6e929fd98b2d6bdbb4"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829c71337e1b1ea58d10d0b"
+  },
+  "nombre": "DiR Girona",
+  "address": "Carrer Barcelona, 25, 17002 Girona",
+  "phone": "+34 633 222 444",
+  "rating": 4.8,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.825,
+      41.9833
+    ]
+  },
+  "serviceType": [
+    "gym workout",
+    "personal training",
+    "yoga class"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00",
+      "_id": {
+        "$oid": "67fd8c4f929fd98b2d6bdbb6"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829c73237e1b1ea58d10d0c"
+  },
+  "nombre": "DiR Badalona",
+  "address": "Avinguda Martí Pujol, 62, 08912 Badalona",
+  "phone": "+34 644 777 888",
+  "rating": 4.7,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.2471,
+      41.4483
+    ]
+  },
+  "serviceType": [
+    "gym workout",
+    "personal training",
+    "yoga class"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00",
+      "_id": {
+        "$oid": "67fd8cf1929fd98b2d6bdbb8"
+      }
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829ca7437e1b1ea58d10d16"
+  },
+  "nombre": "Depiline Fabra i Puig",
+  "address": "Passeig de Fabra i Puig, 124, Nou Barris, 08016 Barcelona",
+  "phone": "+34 647 102 143",
+  "rating": 4.6,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.17835,
+      41.433103
+    ]
+  },
+  "serviceType": [
+    "waxing",
+    "eyebrows and lashes",
+    "facial cleansing"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": "wednesday",
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": "friday",
+      "open": "09:00",
+      "close": "15:00"
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0,
+  "workers": [
+    {
+      "$oid": "684db3b8c5c0a69cf5cbd4d8"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6829ca8537e1b1ea58d10d17"
+  },
+  "nombre": "Depiline Tarragona",
+  "address": "Rambla Nova, 45, 43003 Tarragona",
+  "phone": "+34 660 851 142",
+  "rating": 4.5,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      1.247459,
+      41.11863
+    ]
+  },
+  "serviceType": [
+    "waxing",
+    "eyebrows and lashes",
+    "facial cleansing"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": "wednesday",
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": "friday",
+      "open": "09:00",
+      "close": "15:00"
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0,
+  "workers": [
+    {
+      "$oid": "684db3e3c5c0a69cf5cbd4ed"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6829ca9f37e1b1ea58d10d18"
+  },
+  "nombre": "Depiline Reus",
+  "address": "Carrer de Llovera, 10, 43201 Reus",
+  "phone": "+34 656 000 321",
+  "rating": 4.4,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      1.109683,
+      41.156209
+    ]
+  },
+  "serviceType": [
+    "waxing",
+    "eyebrows and lashes",
+    "facial cleansing"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": "wednesday",
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": "friday",
+      "open": "09:00",
+      "close": "15:00"
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0,
+  "workers": [
+    {
+      "$oid": "684db3f6c5c0a69cf5cbd502"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6829cbea37e1b1ea58d10d1b"
+  },
+  "nombre": "Hello Nails Sants",
+  "address": "Carrer de Sants, 123, Sants-Montjuïc, 08014 Barcelona",
+  "phone": "+34 633 310 863",
+  "rating": 4.3,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.133805,
+      41.376015
+    ]
+  },
+  "serviceType": [
+    "manicure",
+    "pedicure",
+    "makeup"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": "wednesday",
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": "friday",
+      "open": "09:00",
+      "close": "15:00"
+    }
+  ],
+  "business": {
+    "$oid": "6829bfe6f4a83c85b95a798d"
+  },
+  "workers": [
+    {
+      "$oid": "684daf00c5c0a69cf5cbd48d"
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829cc0137e1b1ea58d10d1c"
+  },
+  "nombre": "Hello Nails Lleida",
+  "address": "Carrer Major, 15, 25007 Lleida",
+  "phone": "+34 644 401 507",
+  "rating": 4.5,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      0.622641,
+      41.616276
+    ]
+  },
+  "serviceType": [
+    "manicure",
+    "pedicure",
+    "makeup"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": "wednesday",
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": "friday",
+      "open": "09:00",
+      "close": "15:00"
+    }
+  ],
+  "business": {
+    "$oid": "6829bfe6f4a83c85b95a798d"
+  },
+  "workers": [
+    {
+      "$oid": "684daee7c5c0a69cf5cbd480"
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6829cc1537e1b1ea58d10d1d"
+  },
+  "nombre": "Hello Nails Girona",
+  "address": "Carrer Nou, 25, 17001 Girona",
+  "phone": "+34 645 981 777",
+  "rating": 4.6,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.8211,
+      41.9813
+    ]
+  },
+  "serviceType": [
+    "manicure",
+    "pedicure",
+    "makeup"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "20:00"
+    },
+    {
+      "day": "wednesday",
+      "open": "10:00",
+      "close": "19:00"
+    },
+    {
+      "day": "friday",
+      "open": "09:00",
+      "close": "15:00"
+    }
+  ],
+  "business": {
+    "$oid": "6829bfe6f4a83c85b95a798d"
+  },
+  "workers": [
+    {
+      "$oid": "684daed2c5c0a69cf5cbd473"
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684d9b2308117cce6fea23b1"
+  },
+  "nombre": "Vila Viniteca",
+  "address": "Carrer dels Agullers 7, 08003 Barcelona",
+  "phone": "1556565",
+  "rating": 0,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.1815103,
+      41.38248
+    ]
+  },
+  "serviceType": [
+    "dance class",
+    "wine tasting",
+    "private dinner"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "17:00",
+      "_id": {
+        "$oid": "684d9b2308117cce6fea23b2"
+      }
+    },
+    {
+      "day": "tuesday",
+      "open": "09:00",
+      "close": "17:00",
+      "_id": {
+        "$oid": "684d9b2308117cce6fea23b3"
+      }
+    }
+  ],
+  "business": {
+    "$oid": "684d987308117cce6fea23a6"
+  },
+  "workers": [
+    {
+      "$oid": "684daceec5c0a69cf5cbd45e"
+    },
+    {
+      "$oid": "684daf23c5c0a69cf5cbd49a"
+    },
+    {
+      "$oid": "684daf4bc5c0a69cf5cbd4a7"
+    },
+    {
+      "$oid": "684daf65c5c0a69cf5cbd4b4"
+    }
+  ],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684eb33acb3a2767d7aada6a"
+  },
+  "nombre": "La vinoteca",
+  "address": "Carrer dels Agullers, 7, Ciutat Vella, 08003 Barcelona",
+  "phone": "7893685",
+  "rating": 0,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      2.18156,
+      41.38257
+    ]
+  },
+  "serviceType": [
+    "wine tasting"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "17:00",
+      "_id": {
+        "$oid": "684eb33acb3a2767d7aada6b"
+      }
+    }
+  ],
+  "business": {
+    "$oid": "684d987308117cce6fea23a6"
+  },
+  "workers": [],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684ee64e85cd26644bc155bc"
+  },
+  "nombre": "La Terrasseta dels Vins",
+  "address": "Carrer Panera, 10, 25002 Lleida",
+  "phone": "973456895",
+  "rating": 0,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      0.6204,
+      41.6157
+    ]
+  },
+  "serviceType": [
+    "wine tasting",
+    "catering service"
+  ],
+  "schedule": [
+    {
+      "day": "thursday",
+      "open": "09:00",
+      "close": "17:00",
+      "_id": {
+        "$oid": "684ee64e85cd26644bc155bd"
+      }
+    }
+  ],
+  "business": {
+    "$oid": "684d987308117cce6fea23a6"
+  },
+  "workers": [],
+  "accessible": false,
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f0601d4203caacd7fe60a"
+  },
+  "nombre": "PacoVinos",
+  "address": "Carrer Segrià, 33, 25006 Lleida",
+  "phone": "973456782",
+  "rating": 0,
+  "ubicacion": {
+    "type": "Point",
+    "coordinates": [
+      0.6115523,
+      41.6185562
+    ]
+  },
+  "serviceType": [
+    "wine tasting"
+  ],
+  "schedule": [
+    {
+      "day": "monday",
+      "open": "09:00",
+      "close": "17:00",
+      "_id": {
+        "$oid": "684f0601d4203caacd7fe60b"
+      }
+    }
+  ],
+  "business": {
+    "$oid": "684d987308117cce6fea23a6"
+  },
+  "workers": [],
+  "accessible": true,
+  "isDeleted": false,
+  "__v": 0
+}]

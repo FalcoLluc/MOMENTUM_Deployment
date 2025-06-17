@@ -1,0 +1,202 @@
+[{
+  "_id": {
+    "$oid": "684d987308117cce6fea23a9"
+  },
+  "name": "BlauJefa",
+  "age": 50,
+  "mail": "blaucamarasa@gmail.com",
+  "password": "$2b$08$w3O5weZvNsh6H/UhC36Kj.8u0YKmEw5dYwbb6LIipZZEc2zhbd4CG",
+  "isDeleted": false,
+  "role": "admin",
+  "location": [],
+  "businessAdministrated": {
+    "$oid": "684d987308117cce6fea23a6"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684daceec5c0a69cf5cbd45e"
+  },
+  "name": "mari",
+  "age": 5,
+  "mail": "mari@gmail.com",
+  "password": "$2b$08$S5Ni2SwABfOMpA/tn6WRPe1YV8nJIwXWXbyRJ9tROm3afzgEgd2WS",
+  "isDeleted": false,
+  "role": "worker",
+  "location": [
+    {
+      "$oid": "684d9b2308117cce6fea23b1"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684daed2c5c0a69cf5cbd473"
+  },
+  "name": "carmen",
+  "age": 54,
+  "mail": "car@gmail.com",
+  "password": "$2b$08$KO.EPBz7xH0sJB5PULVgxO9Hgut5wbUkL3PWsYrz7Hq1u0oS/A4Xm",
+  "isDeleted": false,
+  "role": "worker",
+  "location": [
+    {
+      "$oid": "6829cc1537e1b1ea58d10d1d"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684daee7c5c0a69cf5cbd480"
+  },
+  "name": "Antonio",
+  "age": 56,
+  "mail": "anton@gmail.com",
+  "password": "$2b$08$QFLEYiFmdHS3ypCQtWkQReG5wuY9ZnGGUYvg1iwaaliTeeNVspdBK",
+  "isDeleted": false,
+  "role": "worker",
+  "location": [
+    {
+      "$oid": "6829cc0137e1b1ea58d10d1c"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684daf00c5c0a69cf5cbd48d"
+  },
+  "name": "Mario",
+  "age": 36,
+  "mail": "mario@gmail.com",
+  "password": "$2b$08$Sesvlts7QfDK3WNEn2G1LuhCOMrnH0V7MQPw5cK9Ii8/xtgY4PPES",
+  "isDeleted": false,
+  "role": "worker",
+  "location": [
+    {
+      "$oid": "6829cbea37e1b1ea58d10d1b"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684daf23c5c0a69cf5cbd49a"
+  },
+  "name": "Gemma",
+  "age": 30,
+  "mail": "gemma@gmail.com",
+  "password": "$2b$08$I.x6eO7Su8RZesCE89mDpegHAIPOhvdE1zjQgjmwOa3qrg.81EOMe",
+  "isDeleted": false,
+  "role": "worker",
+  "location": [
+    {
+      "$oid": "684d9b2308117cce6fea23b1"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684daf4bc5c0a69cf5cbd4a7"
+  },
+  "name": "Nil",
+  "age": 50,
+  "mail": "nil@gmail.com",
+  "password": "$2b$08$kjzILSYKaCQCS3Rp422LReyLJeDZ8rYCC3vpyI0PdKsCNPfSk7azy",
+  "isDeleted": false,
+  "role": "worker",
+  "location": [
+    {
+      "$oid": "684d9b2308117cce6fea23b1"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684daf65c5c0a69cf5cbd4b4"
+  },
+  "name": "Carlos",
+  "age": 30,
+  "mail": "carlos@gmail.com",
+  "password": "$2b$08$DS0Dkd3umjrAtRqJJcWOTe0UAv0PpKgZ4qZ146ILztsaAGLD1KuJC",
+  "isDeleted": false,
+  "role": "worker",
+  "location": [
+    {
+      "$oid": "684d9b2308117cce6fea23b1"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684daf84c5c0a69cf5cbd4c1"
+  },
+  "name": "Edgar",
+  "age": 25,
+  "mail": "edgar@gmail.com",
+  "password": "$2b$08$.AyL1IuSSL5Ue4mF8M8BSePm7qprHYwru3C8ipwQDPUGCBOcBqAQK",
+  "isDeleted": false,
+  "role": "admin",
+  "location": [],
+  "businessAdministrated": {
+    "$oid": "6829bfeff4a83c85b95a7990"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684db3b8c5c0a69cf5cbd4d8"
+  },
+  "name": "Enric",
+  "age": 32,
+  "mail": "enric@gmail.com",
+  "password": "$2b$08$2KGV6sxJPj5VWGA4.n./FubRphFDi2bQcDN..wGGj.HWorYYvirCe",
+  "isDeleted": false,
+  "role": "worker",
+  "location": [
+    {
+      "$oid": "6829ca7437e1b1ea58d10d16"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684db3e3c5c0a69cf5cbd4ed"
+  },
+  "name": "Manel",
+  "age": 19,
+  "mail": "manel@gmail.com",
+  "password": "$2b$08$ofhsOA1nXMVXI70doLkgA.9VmuXzd0nyTFNjZX1YcSj9Pk227chHW",
+  "isDeleted": false,
+  "role": "worker",
+  "location": [
+    {
+      "$oid": "6829ca8537e1b1ea58d10d17"
+    }
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684db3f6c5c0a69cf5cbd502"
+  },
+  "name": "Juanjo",
+  "age": 50,
+  "mail": "juanjo@gmail.com",
+  "password": "$2b$08$3znaDNx6HEvMCBit8Yuj5OtLs/tJboTUPZKVFqqMwtFwWU/A1UHYy",
+  "isDeleted": false,
+  "role": "worker",
+  "location": [
+    {
+      "$oid": "6829ca9f37e1b1ea58d10d18"
+    }
+  ],
+  "__v": 0
+}]

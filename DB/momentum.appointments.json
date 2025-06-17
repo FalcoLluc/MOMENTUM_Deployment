@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "682908973f804b2e626008c4"
+  },
+  "inTime": {
+    "$date": "2025-05-20T07:00:00.000Z"
+  },
+  "outTime": {
+    "$date": "2025-05-20T08:00:00.000Z"
+  },
+  "title": "TIQ",
+  "description": "Classe teoria",
+  "location": null,
+  "serviceType": "personal",
+  "appointmentState": "requested",
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682909023f804b2e626008e9"
+  },
+  "inTime": {
+    "$date": "2025-05-21T07:00:00.000Z"
+  },
+  "outTime": {
+    "$date": "2025-05-21T08:00:00.000Z"
+  },
+  "title": "examen conduir",
+  "description": "",
+  "location": null,
+  "serviceType": "personal",
+  "appointmentState": "requested",
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684c4b8ecab669cb7aec5249"
+  },
+  "inTime": {
+    "$date": "2025-06-13T09:00:00.000Z"
+  },
+  "outTime": {
+    "$date": "2025-06-13T10:00:00.000Z"
+  },
+  "title": "Gym Workout",
+  "description": "An intense workout session to enhance your fitness.",
+  "location": {
+    "$oid": "67fd6446929fd98b2d6bdb67"
+  },
+  "serviceType": "personal",
+  "appointmentState": "accepted",
+  "colour": "#FF2196F3",
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684db6735778064a29d79696"
+  },
+  "inTime": {
+    "$date": "2025-06-16T07:00:00.000Z"
+  },
+  "outTime": {
+    "$date": "2025-06-16T14:00:00.000Z"
+  },
+  "title": "cositas",
+  "description": "depilar a la gente",
+  "location": null,
+  "serviceType": "waxing",
+  "appointmentState": "accepted",
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684dbe6253d798f5304a8f3e"
+  },
+  "inTime": {
+    "$date": "2025-06-16T12:00:00.000Z"
+  },
+  "outTime": {
+    "$date": "2025-06-16T14:00:00.000Z"
+  },
+  "title": "depi",
+  "description": "depilar",
+  "location": null,
+  "serviceType": "waxing",
+  "appointmentState": "accepted",
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684dbe6553d798f5304a8f4a"
+  },
+  "inTime": {
+    "$date": "2025-06-16T14:00:00.000Z"
+  },
+  "outTime": {
+    "$date": "2025-06-16T18:00:00.000Z"
+  },
+  "title": "depi",
+  "description": "depilar",
+  "location": null,
+  "serviceType": "waxing",
+  "appointmentState": "accepted",
+  "isDeleted": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684dbe6e53d798f5304a8f56"
+  },
+  "inTime": {
+    "$date": "2025-06-16T12:00:00.000Z"
+  },
+  "outTime": {
+    "$date": "2025-06-16T14:00:00.000Z"
+  },
+  "title": "depi",
+  "description": "depilar",
+  "location": null,
+  "serviceType": "waxing",
+  "appointmentState": "accepted",
+  "isDeleted": false,
+  "__v": 0
+}]
